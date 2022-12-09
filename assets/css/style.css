@@ -1,43 +1,96 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Goudy Bookletter 1911", sans-serif;
     margin: 0;    
 }
 
 body {
    text-align: center;
    background-color: #e4cfc1;
+   margin-top: 68px;
 }
 
 /*This adds a background colour to the header*/
 header {
     background-color: #366051;
     overflow: hidden;
-    
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /*This styles the links inside the navigation bar*/
 header a {
-    float: right;
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 20px 32px;
+    padding: 16px 20px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /*Adds a text effect when cursor hovers over links*/
 header a:hover {
-    font-weight: bolder;
+    background-color: #59917d;
+}
+
+/*The formatting for section-1 goes here*/
+.section1 {
+    background-color: #fcf8f5;
+    margin: 10px 0px;
 }
 
 h1 {
     color: #4f4846;
+    font-size: 40px;
+    padding: 20px;
 }
 
-.section1 {
-    background-color: #fcf8f5;
+.section1 p {
+    padding: 20px;
+    font-size: 20px;
 }
 
-#contact-me {
+/*The formatting for the form goes here*/
+.section2 {
+    margin: 20px;
+}
+
+.section2 h2 {
     color: #4f4846;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.section2 div {
+    border-radius: 30px;
+    border-color: #4f4846;
+    border-style: solid;
+    border-width: thick;
+}
+
+form {
+    padding: 10px;
+}
+
+form label {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#button {
+    padding: 10px 60px;
+    background-color: #4f4846;
+}
+
+/*The formatting for the footer goes here*/
+footer {
+    background-color: #366051;
+    overflow: hidden;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    padding: 18px 20px;
+    font-size: 20px;
 }
