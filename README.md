@@ -2,6 +2,10 @@
 
 In this mini-project, you will build a landing page using HTML and CSS. While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
 
+## Deployment
+
+https://sarasg89.github.io/Module01-Mini-Project/
+
 ## Instructions
 
 Work in your group to implement the following user stories:
