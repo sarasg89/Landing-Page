@@ -66,10 +66,15 @@ h1 {
     border-color: #4f4846;
     border-style: solid;
     border-width: thick;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
 }
 
 form {
     padding: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 form label {
@@ -77,15 +82,22 @@ form label {
     padding-bottom: 20px;
 }
 
+#name, #email {
+    width: 300px;
+}
+
 #button {
+    margin-top: 10px;
     padding: 10px 60px;
     background-color: #4f4846;
+    color: white;
 }
 
 /*The formatting for the footer goes here*/
 footer {
     background-color: #366051;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 footer p {
