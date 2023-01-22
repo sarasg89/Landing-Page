@@ -8,7 +8,7 @@ In this mini-project, I had to build a landing page using HTML and CSS, making s
 
 ## Deployment
 
-https://sarasg89.github.io/Module01-Mini-Project/
+https://sarasg89.github.io/Landing-Page/
 
 ## Credits
 
